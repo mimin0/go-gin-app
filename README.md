@@ -8,7 +8,7 @@ deployment [golang app into heroku](https://habrahabr.ru/post/229799/):
 - commit all changes into you repo locally
 - double check that "Procfile" and [godep](https://devcenter.heroku.com/articles/go-dependencies-via-godep) exist if not - add it and commit all changes.
 - execute
-    $ heroku create -b https://github.com/kr/heroku-buildpack-go.git
+    $heroku create -b https://github.com/kr/heroku-buildpack-go.git
     and
     $ git push heroku master
     and
